@@ -40,10 +40,16 @@ layout: none
   ],
   "icons": [
     {
-      "src": "/favicon-512x512.png",
+      "src": "/assets/images/icons/Sharing His Love Logo - Simple.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any"
+    },
+    {
+      "src": "/assets/images/icons/Sharing His Love Logo.png",
+      "type": "image/png",
+      "sizes": "500x500",
+      "purpose": "maskable"
     }
   ],
   "shortcuts": [
@@ -51,7 +57,10 @@ layout: none
       "name": "View the Newest Post",
       // The shortcut when the PWA is installed will dynamically update when a new post is made.
       // This shortcut will loop through the posts limiting its loop to one post and setting the url to the site's base url plus the post's url from the loop.
-      {% for post in site.posts limit: 1 %}"url": "{{ site.url }}{{ post.url }}",{% endfor %}
+      {% for post in site.posts limit: 1 %
+      }"url": "{{ site.url }}{{ post.url }}",
+      {% endfor %
+      }
       "description": "",
       "icons": [
         {
