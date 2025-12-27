@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /posts/templates/
 Allow: /sitemap.xml
-Sitemap: https://love-of-god-and-of-all-men.github.io/sitemap.xml
+Sitemap: https://sharing-His-love/sitemap.xml
