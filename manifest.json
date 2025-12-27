@@ -40,13 +40,13 @@ layout: none
   ],
   "icons": [
     {
-      "src": "/assets/images/icons/Sharing His Love Logo - Simple.png",
+      "src": "/assets/images/icons/simple-logo.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any"
     },
     {
-      "src": "/assets/images/icons/Sharing His Love Logo.png",
+      "src": "/assets/images/icons/logo.png",
       "type": "image/png",
       "sizes": "500x500",
       "purpose": "maskable"
