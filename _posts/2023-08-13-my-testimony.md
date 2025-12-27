@@ -3,7 +3,7 @@ subtitle: I share my witness of Christ.
 tags: [Jesus, testimony, creation, gratitude]
 image: my-testimony
 image_contributor: Riley Grigg
-contributor_link: https://love-of-god-and-of-all-men.github.io/
+contributor_link: https://sharing-His-love.github.io/
 date: 2023-08-13 17:58
 ---
 
