@@ -12,9 +12,7 @@ title: Study Insights
 <!-- Prints the first 5 posts tagged 'cfm' or 'studyinsights' regardless of what other posts may be in the top 5 -->
 {% assign count = 0 %}
 {% for post in site.posts %}
-{% assign tags_string = post.tags | join: ',' | downcase %}
-{% assign tags_compact = tags_string | replace: '-', '' | replace: ' ', '' %}
-{% if tags_compact contains 'cfm' or tags_compact contains 'studyinsights' %}
+{% if post.tags contains 'cfm' or post.tags contains 'studyinsights' %}
 {% include post-display.html %}
 {% assign count = count | plus: 1 %}
 {% endif %}
