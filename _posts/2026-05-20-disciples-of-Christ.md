@@ -8,9 +8,10 @@ tags: [studyinsights] # no spaces, title case or lower case
 #contributor_site: name of site
 #contributor_site_link_to_image: link to their image
 date: 2026-05-20 15:08
+updated: 2026-05-20 15:11
 ---
 
-## Who is a disciple (or follower) of Jesus Christ?
+Who is a disciple (or follower) of Jesus Christ?
 
 "One of the easiest ways to identify a true follower of Jesus Christ is how compassionately that person treats other people."
 [- President Russell M. Nelson](https://www.churchofjesuschrist.org/study/general-conference/2023/04/47nelson?lang=eng&id=p7#p7){:target="_blank"}
