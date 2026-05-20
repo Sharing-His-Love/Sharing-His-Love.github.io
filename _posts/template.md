@@ -3,7 +3,7 @@ sitemap:
   exclude: 'yes' # Options: yes or no
 title: Title of post
 subtitle: subtitle/tagline of post
-tags: [OneTag, another] # no spaces, title case or lower case
+tags: [OneTag, another] # no spaces, title case or lower case (posts with tags cfm or studyinsights show up on the Study Insights page.)
 image: title-of-the-post-file # (image must be stored in /assets/images/headers/ and have a .webp file extension)
 image_contributor: Name of photographer or painter, etc.
 contributor_link: link to their page
