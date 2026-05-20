@@ -16,6 +16,8 @@ updated: yyyy-mm-dd hh:mm # date and time the post was updated (24hr time)
 
 Some text
 
+## Header
+
 [Link text](https://example.com){:target="_blank"}
 
 Unordered list:
