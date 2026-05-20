@@ -13,12 +13,19 @@ title: Study Insights by Date
 {% assign sorted_group_names = group_names | split: "," | sort | reverse %}
 {% for name in sorted_group_names %}
 {% assign group = grouped_posts | where: "name", name | first %}
-{% if post.tags contains 'cfm' %}
+{% assign show_group = false %}
+{% for p in group.items %}
+{% if p.tags contains 'cfm' or p.tags contains 'studyinsights' %}
+{% assign show_group = true %}
+{% break %}
+{% endif %}
+{% endfor %}
+{% if show_group %}
 <h2 id="{{ group.name }}">{{ group.name }}</h2>
 {% endif %}
 <ul>
   {% for post in group.items %}
-  {% if post.tags contains 'cfm' %}
+  {% if post.tags contains 'cfm' or post.tags contains 'studyinsights' %}
   <li><a href="{{ post.url }}">{{ post.title }}</a> - <i>{{ post.date | date: "%B %-d, %Y" }}</i></li>
   {% endif %}
   {% endfor %}
